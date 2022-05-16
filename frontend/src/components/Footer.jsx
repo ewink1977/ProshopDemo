@@ -1,8 +1,16 @@
+import { Container, Row, Col } from 'react-bootstrap'
+
 function Footer() {
 	return (
-		<div>
-			<footer>Footer</footer>
-		</div>
+		<footer>
+			<Container>
+				<Row>
+					<Col className='text-center py-3'>
+						Copyright &copy; 2022 Image One Digital LLC
+					</Col>
+				</Row>
+			</Container>
+		</footer>
 	)
 }
 
